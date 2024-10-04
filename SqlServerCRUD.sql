@@ -10,6 +10,8 @@ insert into shippers (companyname,phone) values ( 'Express Kargo','0850 333 44 5
 -- Tablonun yada daha iyisi database'in backup 'ini alin. Yoksa caniniz yanar.
 select * from Shippers
 update shippers set ShipperID =22 where CompanyName='Speedy Express'
+UPDATE Shippers SET Phone = '444 22 99' WHERE CompanyName = 'Federal Shipping'
+UPDATE Shippers SET Phone = '444 22 99' WHERE CompanyName = 'Surat Kargo'
 
 -- Delete komutuda mutlaka where sarti ile kullanilmalidir.
 -- Delete from <Tablo_adi> where ....
